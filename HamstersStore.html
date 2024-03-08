@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Hamsters Store</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            background-color: #584C3C;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #fff;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        .home-icon,
+        .search-icon,
+        .profile-icon {
+            font-size: 24px;
+        }
+
+        .left-bar {
+            display: flex;
+            align-items: center;
+        }
+
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            position: relative;
+            /* Relative positioning for the container */
+        }
+
+        .search-input {
+            padding: 8px 30px 8px 8px;
+            /* Add padding on the right to make space for the icon */
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+            width: 150px;
+            background: #ECECEC;
+            /* Set the width as needed */
+        }
+
+        .search-icon {
+            position: absolute;
+            /* Absolute positioning for the icon */
+            right: 10px;
+            /* Adjust the position as needed */
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            color: black;
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px;
+
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+         padding-left: 40px;
+
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+         .menu a {
+            margin: 0 65px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+            font-size: 19pt;
+
+        }
+
+
+        .p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 48px;
+            font-family: Georgia, serif;
+        }
+
+
+        .row {
+            justify-content: center;
+            align-items: center;
+            margin-left: 40px;
+        }
+
+        .column {
+            width: 30%;
+            box-sizing: border-box;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding:  10px;
+            margin:  10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+            display: inline-block;
+            background-color: #E1DCD3;
+        }
+
+        .btn-main button {
+            background: #584C3C;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 6px 30px;
+            transition: transform 0.3s;
+            height: 30px;
+        }
+
+        .btn-main button:hover {
+            background: #F87A17;
+            transform: scale(1.2);
+
+        }
+
+        body {
+         margin: 0;
+         background-color: #FFFFFF;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div>
+            <a href="#" class="home-icon"><i class="fa fa-navicon"></i></a>
+        </div>
+        <div class="left-bar">
+            <div class="search-bar">
+                <input type="text" class="search-input" placeholder="Search...">
+                <a href="#" class="search-icon"><i class="fa fa-search"></i></a>
+            </div>
+            <div>
+                <a href="#" class="profile-icon"><i class="fa fa-user-circle"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <div>
+            <img src="img/logo.png" alt="Logo" class="logo"style="margin-top: -27px;margin-left: -5px;">
+        </div>
+          <div>
+            <div class="menu"style="margin-top: 20px;">
+                <a href="#">Home</a>
+                <a href="index.html">Clinic</a>
+                <a href="move.html">Store</a>
+            </div>
+
+            <div class="p"style="margin-top: -27px;">
+               <p>Hamsters Store</p>
+            </div>
+        </div>
+
+
+        <div></div>
+    </div>
+
+
+    <div class="row"style="margin-top: -27px;margin-left: 55px;">
+        <div class="column">
+            <img src="img/DeliNature.png" alt="" style="width: 180px; height: 180px;" alt="" width="100" height="105;">
+            <p style="font-size: 20px; font-weight: bold;">Deli Nature</p>
+           <p style="font-size: 15px;">mixture meets the nutritional demands</p>
+            <p>39 SAR</p>
+            <a href="#" class="btn-main"><button type="button">Add To Cart</button></a>
+        </div>
+        <div class="column">
+            <img src="img/WoodlandCage.png" alt="" style="width: 180px; height: 180px;" alt="" width="100" height="105">
+            <p style="font-size: 20px; font-weight: bold;">Woodland Cage</p>
+            <p style="font-size: 15px;">woodland-themed habitat thoughtfully designed</p>
+            <p>85 SAR</p>
+            <a href="#" class="btn-main"><button type="button">Add To Cart</button></a>
+        </div>
+        <div class="column">
+          <img src="img/snack.png" alt="" style="width: 180px; height: 180px;" alt="" width="100" height="105">
+            <p style="font-size: 20px; font-weight: bold;">snack</p>
+            <p style="font-size: 15px;">Mealworms are a good and nutritious addition</p> 
+             <p>89 SAR</p>
+             <a href="#" class="btn-main"><button type="button">Add To Cart</button></a>
+        </div>
+        <div class="column"> 
+             <img src="img/ClassPet.png" alt="" style="width: 180px; height: 180px;" alt="" width="100" height="105">
+            <p style="font-size: 20px; font-weight: bold;">Class Pet</p>
+            <p style="font-size: 15px;">This little guy really IS the teacher's pet</p> 
+             <p>198 SAR</p>
+            <a href="#" class="btn-main"><button type="button">Add To Cart</button></a>
+        </div>
+        <div class="column"> 
+            <img src="img/Spinner.png" alt="" style="width: 180px; height: 180px;" alt="" width="100" height="105">
+            <p style="font-size: 20px; font-weight: bold;">Spinner</p>
+            <p style="font-size: 15px;">Kaytee silent spinner wheel</p> 
+             <p>34 SAR</p>
+            <a href="#" class="btn-main"><button type="button">Add To Cart</button></a>
+        </div>
+        <div class="column">
+            <img src="img/Bathroom.png" alt="" style="width: 180px; height: 180px;" alt="" width="100" height="105">
+            <p style="font-size: 20px; font-weight: bold;">Bathroom</p>
+            <p style="font-size: 15px;">Heat treated to kill bacteria</p> 
+             <p>58 SAR</p>
+            <a href="#" class="btn-main"><button type="button">Add To Cart</button></a>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

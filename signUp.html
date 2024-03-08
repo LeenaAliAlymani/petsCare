@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<head>
+
+	<link rel="stylesheet" href="pets.css">
+
+	<title>- pets - sign up </title>
+
+	<img src="logo.png" alt="pets logo" width="221" height="173" >
+
+	<header><h1>Create new Account</h1></header>
+
+</head>
+
+<nav>
+	<a href="logIn.html">Already Registered? Login</a>	
+	<br>
+	<br>
+</nav>
+
+<main>
+
+	<form action="logIn.html">
+
+		<label for="MyName" >Name:</label>
+		<br>
+		<input type="text" name="MyName" required="required">
+
+		<br>
+		<br>
+	
+		<label for="myEmail" >EMAIL:</label> 
+		<br>
+		<input type="email" name="myEmail" required="required">
+
+		<br>
+		<br>
+
+		<label for="myPassword" >PASSWORD:</label>
+		<br>
+		<input type="password" name="myPassword" required="required">
+
+		<br>
+		<br>
+
+		<label for="myDate" >BIRTH DAY:</label>
+		<br>
+		<input type="date" name="myDate" required="required">
+
+		<br>
+		<br>
+
+	    <input type="submit" value="sign up"  >
+
+	</form>
+
+</main>
+
+	<button onclick="goToPage()">Go to Page 2</button>
+
+  <script>
+    function goToPage() {
+      window.location.href = "page2.html";
+    }
+  </script>
+
+
+
+
+

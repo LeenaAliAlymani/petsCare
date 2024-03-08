@@ -1,0 +1,163 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+
+
+:root{
+  --green:#16a085;
+  --black:#444;
+  --light-color:#777;
+  --box-shadow:.5em .5em 0 rgba(22,160,133,.2) ;
+  --text-shadow:.4em .4em 0 rgba(0,0,0,.2) ;
+
+
+}
+
+ body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            overflow-y: hidden;
+ 
+     }
+
+         section{
+          padding:2em 9% ;
+         }
+
+        
+          .btn span{
+          padding: .7rem 1rem;
+          border-radius: .5rem;
+          background:#A87758 ;
+          color: #fff;
+          margin-left: .5rem;
+
+
+          }
+
+          .btn:hover{
+            background:#A87758 ;
+            color: #fff;
+          }
+
+            .btn:hover span{
+            color:#A87758;
+            background: #fff;
+            margin-left:1rem ;
+          }
+
+        nav {
+            background-color: #584C3C;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #fff;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        .home-icon,
+        .search-icon,
+        .profile-icon {
+            font-size: 24px;
+        }
+
+        .left-bar {
+            display: flex;
+            align-items: center;
+        }
+
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            position: relative;
+            /* Relative positioning for the container */
+        }
+
+        .search-input {
+            padding: 8px 30px 8px 8px;
+            /* Add padding on the right to make space for the icon */
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+            width: 150px;
+            background: #ECECEC;
+            /* Set the width as needed */
+        }
+
+        .search-icon {
+            position: absolute;
+            /* Absolute positioning for the icon */
+            right: 10px;
+            /* Adjust the position as needed */
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            color: black;
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+
+        }
+
+        .logo {
+            width: 70px;
+            /* Set the width as needed */
+            height: 90px;
+            /* Set the height as needed */
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .menu a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+            font-size: 19pt;
+
+
+        }
+
+        .menu .active {
+            text-decoration: underline;
+            color: #A9816F;
+
+        }
+
+         .home{
+          display: flex;
+          align-items: center ;
+          flex-wrap: wrap;
+          gap: 1.5em;
+          padding-top: -5em;
+
+         }
+
+           .home .image{
+      
+          flex-wrap:1 1 45em ;
+       
+         }
+
+         
+
+         
+
+
+
+
+         

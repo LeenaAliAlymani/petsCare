@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+
+body{
+	background-color: #fef7f2;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+nav{
+	text-align: center;
+	font-weight: bold;
+	}
+
+nav a{
+	color: #AC795A;
+}
+
+header h1 {
+	text-align: center;
+    color: #584d3d;
+}
+
+label {
+  	color: #A47B5F;
+  	font-size: small;
+}
+
+input[type="submit"] {
+ 	background-color: #a87758;
+  	color: white;
+  	padding: 10px 20px;
+  	border: none;
+    cursor: pointer;
+}	
+
+input[type="submit"]:hover {
+  	background-color: #584d3d;
+}
+
+input[type="text"], input[type="password"], input[type="email"],input[type="date"] {
+    background-color: #D5CEC0;
+}
+
+
+
